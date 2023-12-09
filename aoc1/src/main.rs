@@ -23,7 +23,7 @@ fn aoc1(input: String) -> Vec<u32> {
       last_digit = current_digit;
     }
 
-    result.push(first_digit + last_digit * 10);
+    result.push(last_digit + first_digit * 10);
   }
   
   return result;
